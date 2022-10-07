@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		093C71BC2898DDEE004BD233 /* customfont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093C71BB2898DDEE004BD233 /* customfont.swift */; };
 		094CBD862838BB7600028054 /* CalendarTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CBD852838BB7600028054 /* CalendarTaskApp.swift */; };
 		094CBD882838BB7600028054 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CBD872838BB7600028054 /* ContentView.swift */; };
 		094CBD8A2838BB7700028054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094CBD892838BB7700028054 /* Assets.xcassets */; };
 		094CBD8D2838BB7700028054 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094CBD8C2838BB7700028054 /* Preview Assets.xcassets */; };
+		094CBD952838BEB200028054 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CBD942838BEB200028054 /* Task.swift */; };
+		094CBD982838BF4000028054 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CBD972838BF4000028054 /* TaskViewModel.swift */; };
+		094CBD9B2838C20000028054 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CBD9A2838C20000028054 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		093C71BB2898DDEE004BD233 /* customfont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customfont.swift; sourceTree = "<group>"; };
 		094CBD822838BB7600028054 /* CalendarTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		094CBD852838BB7600028054 /* CalendarTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTaskApp.swift; sourceTree = "<group>"; };
 		094CBD872838BB7600028054 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		094CBD892838BB7700028054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		094CBD8C2838BB7700028054 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		094CBD942838BEB200028054 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		094CBD972838BF4000028054 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		094CBD9A2838C20000028054 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		09C68D2D2890EFE3004B2F7B /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +60,13 @@
 		094CBD842838BB7600028054 /* CalendarTask */ = {
 			isa = PBXGroup;
 			children = (
+				094CBD962838BF2700028054 /* ViewModel */,
+				094CBD932838BE9900028054 /* Model */,
+				094CBD992838C1F500028054 /* View */,
 				094CBD852838BB7600028054 /* CalendarTaskApp.swift */,
 				094CBD872838BB7600028054 /* ContentView.swift */,
+				093C71BB2898DDEE004BD233 /* customfont.swift */,
+				09C68D2D2890EFE3004B2F7B /* MyPlayground.playground */,
 				094CBD892838BB7700028054 /* Assets.xcassets */,
 				094CBD8B2838BB7700028054 /* Preview Content */,
 			);
@@ -65,6 +79,30 @@
 				094CBD8C2838BB7700028054 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		094CBD932838BE9900028054 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				094CBD942838BEB200028054 /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		094CBD962838BF2700028054 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				094CBD972838BF4000028054 /* TaskViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		094CBD992838C1F500028054 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				094CBD9A2838C20000028054 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +176,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				094CBD882838BB7600028054 /* ContentView.swift in Sources */,
+				093C71BC2898DDEE004BD233 /* customfont.swift in Sources */,
+				094CBD982838BF4000028054 /* TaskViewModel.swift in Sources */,
+				094CBD9B2838C20000028054 /* Home.swift in Sources */,
+				094CBD952838BEB200028054 /* Task.swift in Sources */,
 				094CBD862838BB7600028054 /* CalendarTaskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
